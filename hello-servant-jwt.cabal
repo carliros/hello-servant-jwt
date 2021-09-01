@@ -18,3 +18,12 @@ executable hello-servant-jwt
   main-is:             Main.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
+                     , aeson
+                     , http-client
+                     , warp
+                     , servant-server
+                     , servant-client
+                     , servant-auth
+                     , servant-auth-server
+                     , containers
+                     , bytestring
